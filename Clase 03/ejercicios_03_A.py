@@ -21,15 +21,18 @@ resta = num1 - num2
 mult =  num1 * num2
 div = num1 / num2
 div = f"{div:.2f}"
+modulo = num1 % num2
 print()
 print(50*"-")
 print()
-print("La suma de", num1,  "y", num2,  "da como resultado:", suma)
+print(f"La suma de {num1} y {num2} da como resultado: {suma}")
 print()
-print("La resta de", num1,  "y", num2,  "da como resultado:", resta)
+print(f"La resta de {num1} y {num2} da como resultado: {resta}")
 print()
-print("La división de", num1,  "y", num2,  "da como resultado:", div)
+print(f"La división de {num1} y {num2} da como resultado: {div}")
 print()
-print("La multiplicación de", num1,  "y", num2,  "da como resultado:", mult)
+print(f"La multiplicación de {num1} y {num2} da como resultado: {mult}")
+print()
+print(f"La paridad o módulo de {num1} y {num2} da como resultado: {modulo}")
 print()
 print(50*"-")

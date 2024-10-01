@@ -33,8 +33,9 @@ propina = (cuenta / 100) * porcent
 total = cuenta + propina
 print()
 print()
-print("EL MONTO DE LA PROPINA ES DE $", propina)
+print(f"EL MONTO DE LA PROPINA ES DE $ {propina:.2f}")
 print()
-print("EL IMPORTE A ABONAR CON LA PROPINA ES DE $", total)
+print(f"EL IMPORTE A ABONAR CON LA PROPINA ES DE $ {total:.2f}")
 print()
 print()
+print(40*"=")
