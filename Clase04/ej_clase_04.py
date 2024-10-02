@@ -46,3 +46,19 @@ genero = input("Género: ")
 #isbn - borra registro
 #Buscar
 #criterios (filtros) de busqueda: isbn - titulo
+
+nombre = input("Nombre: ")
+apellido = input("Apellido: ")
+edad = int(input("Edad: "))
+
+print("Ud. ingresó: \t Nombre: ", nombre, "\t Apellido: ", apellido,"\t Edad: ", edad)
+
+print("Datos ingresados: "+nombre+" "+apellido+" "+str(edad))
+
+#format-strings docu: https://www.w3schools.com/python/ref_string_format.asp
+print(f"Datos ingresados: {nombre} {apellido} {edad}. ")
+
+
+#reportes
+print("\t Nombre: \t Apellido: \t Edad: ")
+print("\t ",nombre," \t ",apellido," \t ",edad)
