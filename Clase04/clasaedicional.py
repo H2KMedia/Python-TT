@@ -1,4 +1,9 @@
 import os
+# link de clase  https://docs.python.org/3/tutorial/inputoutput.html
+# link de clase https://www.w3schools.com/python/ref_string_format.asp
+# link de clase https://www.onlinegdb.com/vO9ev7cfQ7
+
+
 #ddatos del ticket
 
 supermercado = "las marias"
