@@ -33,10 +33,10 @@ def listar_libros():
     if os.path.exists("base_de_datos.txt"):
         with open("base_de_datos.txt", "r") as file:
             lineas = file.readlines()
-        
-        print("\n=== Lista de Libros ===")
+        print(100*"-")
+        print("|                                         LISTADO DE LIBROS                                        |")
         print("+----+--------------------+--------------------+------+--------------------+------------+----------+")
-        print("| ID | Título             | Autor              | Año  | Editorial          | ISBN       | Unidades |")
+        print("| ID | TÍTULO             | AUTOR              | AÑO  | EDITORIAL          | ISBN       | STOCK    |")
         print("+----+--------------------+--------------------+------+--------------------+------------+----------+")
         
         for linea in lineas:
